@@ -4,16 +4,16 @@
 }
 
 .avatar {
-  height: 12vw;
-  width: 12vw;
-  border-radius: 125px;
+  height: 18vw;
+  width: 18vw;
+  border-radius: 135px;
   text-align: right;
   margin-top: 1.75vw;
 }
 
 .contactCard {
-  height: 16vw;
-  width: 17vw;
+  height: 21vw;
+  width: 22vw;
 }
 
 #info.col {
@@ -32,7 +32,8 @@
 }
 
 .selectedcard {
-  width: 14vw;
+  width: 33%;
+  height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
