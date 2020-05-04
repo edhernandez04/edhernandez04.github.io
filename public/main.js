@@ -1,5 +1,4 @@
 app = document.getElementById('app')
-nav = document.getElementById('nav')
 
 let topDiv = document.createElement('div')
   topDiv.id = 'topDiv'
