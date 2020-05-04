@@ -1,6 +1,6 @@
 .top-div {
   background-image: linear-gradient(dimgray, white);
-  width: inherit;
+  min-width: auto;
 }
 
 .avatar {
@@ -25,8 +25,7 @@
 }
 
 .displayBlock {
-  height: relative;
-  width: inherit;
+  min-width: auto;
   text-align: center;
   padding-bottom: 1vh;
 }
