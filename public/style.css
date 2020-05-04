@@ -34,7 +34,7 @@
 
 .displayBlock {
   padding: 25px;
-  height: 300px;
+  height: relative;
 }
 
 .selectedcard {
@@ -62,7 +62,7 @@
 
 .container {
   text-align: center;
-  margin-top: 200px;
+  margin-top: 14%;
   z-index: 2;
 }
 
@@ -70,4 +70,20 @@
   text-align: center;
   padding-top: 75px;
   font-family: 'Courier New', Courier, monospace;
+}
+
+#LinkUpShow {
+  padding: 1%;
+}
+
+#LifeTourShow {
+  padding: 1%;
+}
+
+#IntellitrakShow {
+  padding: 1%;
+}
+
+#PuppyLinkShow {
+  padding: 1%;
 }
