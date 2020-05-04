@@ -92,23 +92,23 @@ let LinkUpShow = document.createElement('div')
     let LinkUpHomePage = document.createElement('div')
       LinkUpHomePage.id = 'linkuphome'
       LinkUpHomePage.className = 'col'
-      LinkUpHomePage.innerHTML = `<img src='./assets/LinkUp/homepage.png' width='70%'>`
+      LinkUpHomePage.innerHTML = `<img src='./assets/LinkUp/homepage.png' width='150vw'>`
     let LinkUpLogin = document.createElement('div')
       LinkUpLogin.id = 'linkuplogin'
       LinkUpLogin.className = 'col'
-      LinkUpLogin.innerHTML = `<img src='./assets/LinkUp/login.png' width='70%'>`
+      LinkUpLogin.innerHTML = `<img src='./assets/LinkUp/login.png' width='150vw'>`
     let LinkUpCrud = document.createElement('div')
       LinkUpCrud.id = 'LinkUpCrud'
       LinkUpCrud.className = 'col'
-      LinkUpCrud.innerHTML = `<img src='./assets/LinkUp/crud.png' width='70%'>`
+      LinkUpCrud.innerHTML = `<img src='./assets/LinkUp/crud.png' width='150vw'>`
     let LinkUpMulti = document.createElement('div')
       LinkUpMulti.id = 'LinkUpMulti'
       LinkUpMulti.className = 'col'
-      LinkUpMulti.innerHTML = `<img src='./assets/LinkUp/mulitusers.png' width='70%'>`
+      LinkUpMulti.innerHTML = `<img src='./assets/LinkUp/mulitusers.png' width='150vw'>`
     let LinkUpChat = document.createElement('div')
       LinkUpChat.id = 'LinkUpChat'
       LinkUpChat.className = 'col'
-      LinkUpChat.innerHTML = `<img src='./assets/LinkUp/chat.png' width='70%'>`
+      LinkUpChat.innerHTML = `<img src='./assets/LinkUp/chat.png' width='150vw'>`
 
 let LifeTourShow = document.createElement('div')
   LifeTourShow.id = 'LifeTourShow'
@@ -116,19 +116,19 @@ let LifeTourShow = document.createElement('div')
     let LifeTourUserpage = document.createElement('div')
       LifeTourUserpage.id = 'LifeTourUserpage'
       LifeTourUserpage.className = 'col'
-      LifeTourUserpage.innerHTML = `<img src='./assets/LifeTour/homepage.png' width='95%'>`
+      LifeTourUserpage.innerHTML = `<img src='./assets/LifeTour/homepage.png' width='50%'>`
     let LifeTourLogin = document.createElement('div')
       LifeTourLogin.id = 'LifeTourLogin'
       LifeTourLogin.className = 'col'
-      LifeTourLogin.innerHTML = `<img src='./assets/LifeTour/login.png' width='95%'>`
+      LifeTourLogin.innerHTML = `<img src='./assets/LifeTour/login.png' width='50%'>`
     let LifeTourTour = document.createElement('div')
       LifeTourTour.id = 'LifeTourTour'
       LifeTourTour.className = 'col'
-      LifeTourTour.innerHTML = `<img src='./assets/LifeTour/tourpage.png' width='95%'>`
+      LifeTourTour.innerHTML = `<img src='./assets/LifeTour/tourpage.png' width='50%'>`
     let LifeTourHome = document.createElement('div')
       LifeTourHome.id = 'LifeTourHome'
       LifeTourHome.className = 'col'
-      LifeTourHome.innerHTML = `<img src='./assets/LifeTour/home.png' width='95%'>`
+      LifeTourHome.innerHTML = `<img src='./assets/LifeTour/home.png' width='50%'>`
 
 let IntellitrakShow = document.createElement('div')
   IntellitrakShow.id = 'IntellitrakShow'
@@ -136,19 +136,19 @@ let IntellitrakShow = document.createElement('div')
     let IntellitrakCarshow = document.createElement('div')
       IntellitrakCarshow.id = 'IntellitrakCarshow'
       IntellitrakCarshow.className = 'col'
-      IntellitrakCarshow.innerHTML = `<img src='./assets/IntelliTrak/carshow.png' width='95%'>`
+      IntellitrakCarshow.innerHTML = `<img src='./assets/IntelliTrak/carshow.png' width='50%'>`
     let IntellitrakHome = document.createElement('div')
       IntellitrakHome.id = 'IntellitrakHome'
       IntellitrakHome.className = 'col'
-      IntellitrakHome.innerHTML = `<img src='./assets/IntelliTrak/home.png' width='95%'>`
+      IntellitrakHome.innerHTML = `<img src='./assets/IntelliTrak/home.png' width='50%'>`
     let IntellitrakInv = document.createElement('div')
       IntellitrakInv.id = 'IntellitrakInv'
       IntellitrakInv.className = 'col'
-      IntellitrakInv.innerHTML = `<img src='./assets/IntelliTrak/inventory.png' width='95%'>`
+      IntellitrakInv.innerHTML = `<img src='./assets/IntelliTrak/inventory.png' width='50%'>`
     let IntellitrakPerf = document.createElement('div')
       IntellitrakPerf.id = 'IntellitrakPerf'
       IntellitrakPerf.className = 'col'
-      IntellitrakPerf.innerHTML = `<img src='./assets/IntelliTrak/performance.png' width='95%'>`
+      IntellitrakPerf.innerHTML = `<img src='./assets/IntelliTrak/performance.png' width='50%'>`
 
 let PuppyLinkShow = document.createElement('div')
   PuppyLinkShow.id = 'PuppyLinkShow'
@@ -156,19 +156,19 @@ let PuppyLinkShow = document.createElement('div')
     let PuppLinkBShow = document.createElement('div')
       PuppLinkBShow.id = 'PuppLinkBShow'
       PuppLinkBShow.className = 'col'
-      PuppLinkBShow.innerHTML = `<img src='./assets/PuppyLink/breedershow.png' width='95%'>`
+      PuppLinkBShow.innerHTML = `<img src='./assets/PuppyLink/breedershow.png' width='50%'>`
     let PuppyLinkDShow = document.createElement('div')
       PuppyLinkDShow.id = 'PuppyLinkDShow'
       PuppyLinkDShow.className = 'col'
-      PuppyLinkDShow.innerHTML = `<img src='./assets/PuppyLink/dogshow.png' width='95%'>`
+      PuppyLinkDShow.innerHTML = `<img src='./assets/PuppyLink/dogshow.png' width='50%'>`
     let PuppyLinkPShow = document.createElement('div')
       PuppyLinkPShow.id = 'PuppyLinkPShow'
       PuppyLinkPShow.className = 'col'
-      PuppyLinkPShow.innerHTML = `<img src='./assets/PuppyLink/petshow.png' width='95%'>`
+      PuppyLinkPShow.innerHTML = `<img src='./assets/PuppyLink/petshow.png' width='50%'>`
     let PuppyLinkUser = document.createElement('div')
       PuppyLinkUser.id = 'PuppyLinkUser'
       PuppyLinkUser.className = 'col'
-      PuppyLinkUser.innerHTML = `<img src='./assets/PuppyLink/userprofile.png' width='95%'>`
+      PuppyLinkUser.innerHTML = `<img src='./assets/PuppyLink/userprofile.png' width='50%'>`
 
 app.append(topDiv, displayBlock, projectBlock)
 
