@@ -1,19 +1,19 @@
 .top-div {
   background-image: linear-gradient(dimgray, white);
-  padding: 5px;
+  padding: 0.5vw;
 }
 
 .avatar {
-  height: 175px;
-  width: 175px;
+  height: 12vw;
+  width: 12vw;
   border-radius: 125px;
   text-align: right;
-  margin-top: 25px;
+  margin-top: 1.75vw;
 }
 
 .contactCard {
-  height: 225px;
-  width: 250px;
+  height: 16vw;
+  width: 17vw;
 }
 
 #info.col {
@@ -26,19 +26,13 @@
   width: 100%;
 }
 
-.about-div {
-  background-image: linear-gradient(white, black);
-  height: 500px;
-  padding: 25px;
-}
-
 .displayBlock {
-  padding: 25px;
+  padding: 1.75vw;
   height: relative;
 }
 
 .selectedcard {
-  width: 200px;
+  width: 14vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -68,7 +62,7 @@
 
 #pBpreview {
   text-align: center;
-  padding-top: 75px;
+  padding-top: 4vw;
   font-family: 'Courier New', Courier, monospace;
 }
 

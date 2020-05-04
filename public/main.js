@@ -256,7 +256,7 @@ document.getElementById('displayBlock').addEventListener('click', event => {
         on()
         LinkUpModal.innerHTML = `
         <div class="container">
-          <iframe width="600" height="350" src="https://www.youtube.com/embed/K0Y9VCCvfh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="600vw" height="350vw" src="https://www.youtube.com/embed/K0Y9VCCvfh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>`
       break;  
 
@@ -267,7 +267,7 @@ document.getElementById('displayBlock').addEventListener('click', event => {
         on()
         LifeTourModal.innerHTML = `
         <div class="container">
-          <iframe width="600" height="350" src="https://www.youtube.com/embed/e2d8cwx4wrw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="600vw" height="350vw" src="https://www.youtube.com/embed/e2d8cwx4wrw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>`
       break;
 
@@ -278,7 +278,7 @@ document.getElementById('displayBlock').addEventListener('click', event => {
         on()
         IntellitrakModal.innerHTML = `
         <div class="container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/5km27Qy2KZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560vw" height="315vw" src="https://www.youtube.com/embed/5km27Qy2KZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>`
       break;
     
@@ -289,7 +289,7 @@ document.getElementById('displayBlock').addEventListener('click', event => {
         on()
         PuppyLinkModal.innerHTML = `
         <div class="container">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/lhKQdcUUUNo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560vw" height="315vw" src="https://www.youtube.com/embed/lhKQdcUUUNo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>`
       break;
   }
