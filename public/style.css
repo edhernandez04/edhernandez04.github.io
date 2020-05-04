@@ -1,6 +1,5 @@
 .top-div {
   background-image: linear-gradient(dimgray, white);
-  width: relative;
 }
 
 .avatar {
@@ -63,23 +62,22 @@
 
 #pBpreview {
   text-align: center;
-  padding: 1vw;
+  padding: 2vw;
   font-family: 'Courier New', Courier, monospace;
 }
 
 #LinkUpCard{
-  width: 17vmax;
+  width: 20vmax;
 }
 
 #LifeTourCard{
-  width: 17vmax;
+  width: 20vmax;
 }
 
 #IntellitrakCard{
-  width: 17vmax;
+  width: 20vmax;
 }
 
 #PuppyLinkCard{
-  width: 17vmax;
+  width: 20vmax;
 }
-
