@@ -2,28 +2,17 @@ app = document.getElementById('app')
 
 let topDiv = document.createElement('div')
   topDiv.id = 'topDiv'
-  topDiv.className = 'top-div'
-
-let titleContainer = document.createElement('div')
-  titleContainer.id = 'title-container'
+  topDiv.className = 'row'
   
-  let avatarRow = document.createElement('div')
-    avatarRow.id = 'avatar-row'
-    avatarRow.className = 'row'
-  
-  let avatarColumn = document.createElement('div')
-    avatarColumn.id = 'avatar'
-    avatarColumn.className = 'col'
-    avatarColumn.innerHTML = `<img src='./assets/avatar.jpg' class='avatar'>`
+  let avatar = document.createElement('div')
+    avatar.id = 'avatar'
+    avatar.innerHTML = `<img src='./assets/avatar.jpg' class='avatar'>`
 
   let info = document.createElement('div')
     info.id = 'info'
-    info.className = 'col'
     info.innerHTML = `<img src='./assets/contact.png' class='contactCard'>`
   
-topDiv.append(titleContainer)
-titleContainer.append(avatarRow)
-avatarRow.append(avatarColumn, info)
+topDiv.append(avatar, info)
 
 let displayBlock = document.createElement('div')
   displayBlock.id = 'displayBlock'
@@ -33,141 +22,87 @@ let pBpreview = document.createElement('div')
   pBpreview.id = 'pBpreview'
   pBpreview.innerHTML = `
       Native New Yorker from The Bronx. 
-      <br> I enjoy being nice to people for no reason, golfing, football, & listening to loud music.
-      <br> The hardest working person in the universe and I make sure to have fun doing it. Watch for the future projects. 
-      <br> Thanks for stopping by!
+      I enjoy being nice to people for no reason, golfing, football, & listening to loud music.
+      The hardest working person in the universe and I make sure to have fun doing it. Watch for the future projects. 
+      Thanks for stopping by!
   `
 displayBlock.append(pBpreview)
 
 let projectBlock = document.createElement('div')
   projectBlock.id = 'projectBlock'
 
-let projectRow = document.createElement('div')
-  projectBlock.id = 'projectRow'
-  projectRow.className = 'row'
-
-let LinkUp = document.createElement('div')
-  LinkUp.id = 'LinkUp'
-  LinkUp.className = 'col'
-
   let LinkUpCard = document.createElement('div')
     LinkUpCard.className = 'logo'
     LinkUpCard.innerHTML = `<img src='./assets/LinkUp.png' id='LinkUpCard'>`
-
-let LifeTour = document.createElement('div')
-  LifeTour.id = 'LifeTour'
-  LifeTour.className = 'col'
 
   let LifeTourCard = document.createElement('div')
     LifeTourCard.className = 'logo'
     LifeTourCard.innerHTML = `<img src='./assets/LifeTour.png' id='LifeTourCard'>`
 
-let IntelliTrak = document.createElement('div')
-  IntelliTrak.id = 'IntelliTrak'
-  IntelliTrak.className = 'col'
-
   let IntelliTrakCard = document.createElement('div')
     IntelliTrakCard.className = 'logo'
     IntelliTrakCard.innerHTML = `<img src='./assets/Intellitrak.png' id='IntellitrakCard'>`
-
-let PuppyLink = document.createElement('div')
-  PuppyLink.id = 'PuppyLink'
-  PuppyLink.className = 'col'
 
   let PuppyLinkCard = document.createElement('div')
     PuppyLinkCard.className = 'logo'
     PuppyLinkCard.innerHTML = `<img src='./assets/PuppyLink.png' id='PuppyLinkCard'>`
 
-projectBlock.append(projectRow)
-projectRow.append(LinkUp, LifeTour, IntelliTrak, PuppyLink)
-LinkUp.append(LinkUpCard)
-LifeTour.append(LifeTourCard)
-IntelliTrak.append(IntelliTrakCard)
-PuppyLink.append(PuppyLinkCard)
+projectBlock.append(LinkUpCard, LifeTourCard, IntelliTrakCard, PuppyLinkCard)
 
-let LinkUpShow = document.createElement('div')
-  LinkUpShow.id = 'LinkUpShow'
-  LinkUpShow.className = 'row'
-    let LinkUpHomePage = document.createElement('div')
-      LinkUpHomePage.id = 'linkuphome'
-      LinkUpHomePage.className = 'project-images'
-      LinkUpHomePage.innerHTML = `<img src='./assets/LinkUp/homepage.png' class='phone-image'>`
-    let LinkUpLogin = document.createElement('div')
-      LinkUpLogin.id = 'linkuplogin'
-      LinkUpLogin.className = 'project-images'
-      LinkUpLogin.innerHTML = `<img src='./assets/LinkUp/login.png' class='phone-image'>`
-    let LinkUpCrud = document.createElement('div')
-      LinkUpCrud.id = 'LinkUpCrud'
-      LinkUpCrud.className = 'project-images'
-      LinkUpCrud.innerHTML = `<img src='./assets/LinkUp/crud.png' class='phone-image'>`
-    let LinkUpMulti = document.createElement('div')
-      LinkUpMulti.id = 'LinkUpMulti'
-      LinkUpMulti.className = 'project-images'
-      LinkUpMulti.innerHTML = `<img src='./assets/LinkUp/mulitusers.png' class='phone-image'>`
-    let LinkUpChat = document.createElement('div')
-      LinkUpChat.id = 'LinkUpChat'
-      LinkUpChat.className = 'project-images'
-      LinkUpChat.innerHTML = `<img src='./assets/LinkUp/chat.png' class='phone-image'>`
+  let LinkUpHomePage = document.createElement('div')
+    LinkUpHomePage.id = 'linkuphome'
+    LinkUpHomePage.innerHTML = `<img src='./assets/LinkUp/homepage.png' className='page-image'>`
+  let LinkUpLogin = document.createElement('div')
+    LinkUpLogin.id = 'linkuplogin'
+    LinkUpLogin.innerHTML = `<img src='./assets/LinkUp/login.png' className='page-image'>`
+  let LinkUpCrud = document.createElement('div')
+    LinkUpCrud.id = 'LinkUpCrud'
+    LinkUpCrud.innerHTML = `<img src='./assets/LinkUp/crud.png' className='page-image'>`
+  let LinkUpMulti = document.createElement('div')
+    LinkUpMulti.id = 'LinkUpMulti'
+    LinkUpMulti.innerHTML = `<img src='./assets/LinkUp/mulitusers.png' className='page-image'>`
+  let LinkUpChat = document.createElement('div')
+    LinkUpChat.id = 'LinkUpChat'
+    LinkUpChat.innerHTML = `<img src='./assets/LinkUp/chat.png' className='page-image'>`
 
-let LifeTourShow = document.createElement('div')
-  LifeTourShow.id = 'LifeTourShow'
-  LifeTourShow.className = 'row'
-    let LifeTourUserpage = document.createElement('div')
-      LifeTourUserpage.id = 'LifeTourUserpage'
-      LifeTourUserpage.className = 'project-images'
-      LifeTourUserpage.innerHTML = `<img src='./assets/LifeTour/homepage.png' class='page-image'>`
-    let LifeTourLogin = document.createElement('div')
-      LifeTourLogin.id = 'LifeTourLogin'
-      LifeTourLogin.className = 'project-images'
-      LifeTourLogin.innerHTML = `<img src='./assets/LifeTour/login.png' class='page-image'>`
-    let LifeTourTour = document.createElement('div')
-      LifeTourTour.id = 'LifeTourTour'
-      LifeTourTour.className = 'project-images'
-      LifeTourTour.innerHTML = `<img src='./assets/LifeTour/tourpage.png' class='page-image'>`
-    let LifeTourHome = document.createElement('div')
-      LifeTourHome.id = 'LifeTourHome'
-      LifeTourHome.className = 'project-images'
-      LifeTourHome.innerHTML = `<img src='./assets/LifeTour/home.png' class='page-image'>`
+  let LifeTourUserpage = document.createElement('div')
+    LifeTourUserpage.id = 'LifeTourUserpage'
+    LifeTourUserpage.innerHTML = `<img src='./assets/LifeTour/homepage.png' className='page-image'>`
+  let LifeTourLogin = document.createElement('div')
+    LifeTourLogin.id = 'LifeTourLogin'
+    LifeTourLogin.innerHTML = `<img src='./assets/LifeTour/login.png' className='page-image'>`
+  let LifeTourTour = document.createElement('div')
+    LifeTourTour.id = 'LifeTourTour'
+    LifeTourTour.innerHTML = `<img src='./assets/LifeTour/tourpage.png' className='page-image'>`
+  let LifeTourHome = document.createElement('div')
+    LifeTourHome.id = 'LifeTourHome'
+    LifeTourHome.innerHTML = `<img src='./assets/LifeTour/home.png' className='page-image'>`
 
-let IntellitrakShow = document.createElement('div')
-  IntellitrakShow.id = 'IntellitrakShow'
-  IntellitrakShow.className = 'row'
-    let IntellitrakCarshow = document.createElement('div')
-      IntellitrakCarshow.id = 'IntellitrakCarshow'
-      IntellitrakCarshow.className = 'project-images'
-      IntellitrakCarshow.innerHTML = `<img src='./assets/IntelliTrak/carshow.png' class='page-image'>`
-    let IntellitrakHome = document.createElement('div')
-      IntellitrakHome.id = 'IntellitrakHome'
-      IntellitrakHome.className = 'project-images'
-      IntellitrakHome.innerHTML = `<img src='./assets/IntelliTrak/home.png' class='page-image'>`
-    let IntellitrakInv = document.createElement('div')
-      IntellitrakInv.id = 'IntellitrakInv'
-      IntellitrakInv.className = 'project-images'
-      IntellitrakInv.innerHTML = `<img src='./assets/IntelliTrak/inventory.png' class='page-image'>`
-    let IntellitrakPerf = document.createElement('div')
-      IntellitrakPerf.id = 'IntellitrakPerf'
-      IntellitrakPerf.className = 'project-images'
-      IntellitrakPerf.innerHTML = `<img src='./assets/IntelliTrak/performance.png' class='page-image'>`
+  let IntellitrakCarshow = document.createElement('div')
+    IntellitrakCarshow.id = 'IntellitrakCarshow'
+    IntellitrakCarshow.innerHTML = `<img src='./assets/IntelliTrak/carshow.png' className='page-image'>`
+  let IntellitrakHome = document.createElement('div')
+    IntellitrakHome.id = 'IntellitrakHome'
+    IntellitrakHome.innerHTML = `<img src='./assets/IntelliTrak/home.png' className='page-image'>`
+  let IntellitrakInv = document.createElement('div')
+    IntellitrakInv.id = 'IntellitrakInv'
+    IntellitrakInv.innerHTML = `<img src='./assets/IntelliTrak/inventory.png' className='page-image'>`
+  let IntellitrakPerf = document.createElement('div')
+    IntellitrakPerf.id = 'IntellitrakPerf'
+    IntellitrakPerf.innerHTML = `<img src='./assets/IntelliTrak/performance.png' className='page-image'>`
 
-let PuppyLinkShow = document.createElement('div')
-  PuppyLinkShow.id = 'PuppyLinkShow'
-  PuppyLinkShow.className = 'row'
-    let PuppLinkBShow = document.createElement('div')
-      PuppLinkBShow.id = 'PuppLinkBShow'
-      PuppLinkBShow.className = 'project-images'
-      PuppLinkBShow.innerHTML = `<img src='./assets/PuppyLink/breedershow.png' class='page-image'>`
-    let PuppyLinkDShow = document.createElement('div')
-      PuppyLinkDShow.id = 'PuppyLinkDShow'
-      PuppyLinkDShow.className = 'project-images'
-      PuppyLinkDShow.innerHTML = `<img src='./assets/PuppyLink/dogshow.png' class='page-image'>`
-    let PuppyLinkPShow = document.createElement('div')
-      PuppyLinkPShow.id = 'PuppyLinkPShow'
-      PuppyLinkPShow.className = 'project-images'
-      PuppyLinkPShow.innerHTML = `<img src='./assets/PuppyLink/petshow.png' class='page-image'>`
-    let PuppyLinkUser = document.createElement('div')
-      PuppyLinkUser.id = 'PuppyLinkUser'
-      PuppyLinkUser.className = 'project-images'
-      PuppyLinkUser.innerHTML = `<img src='./assets/PuppyLink/userprofile.png' class='page-image'>`
+  let PuppLinkBShow = document.createElement('div')
+    PuppLinkBShow.id = 'PuppLinkBShow'
+    PuppLinkBShow.innerHTML = `<img src='./assets/PuppyLink/breedershow.png' className='page-image'>`
+  let PuppyLinkDShow = document.createElement('div')
+    PuppyLinkDShow.id = 'PuppyLinkDShow'
+    PuppyLinkDShow.innerHTML = `<img src='./assets/PuppyLink/dogshow.png' className='page-image'>`
+  let PuppyLinkPShow = document.createElement('div')
+    PuppyLinkPShow.id = 'PuppyLinkPShow'
+    PuppyLinkPShow.innerHTML = `<img src='./assets/PuppyLink/petshow.png' className='page-image'>`
+  let PuppyLinkUser = document.createElement('div')
+    PuppyLinkUser.id = 'PuppyLinkUser'
+    PuppyLinkUser.innerHTML = `<img src='./assets/PuppyLink/userprofile.png' className='page-image'>`
 
 app.append(topDiv, displayBlock, projectBlock)
 
@@ -183,20 +118,17 @@ document.getElementById('projectRow').addEventListener('click', event => {
     
     case 'LifeTourCard':
       event.target.className = 'selectedcard'
-      displayBlock.append(LifeTourShow)
-      LifeTourShow.append(LifeTourUserpage, LifeTourLogin, LifeTourTour, LifeTourHome)
+      displayBlock.append(LifeTourUserpage, LifeTourLogin, LifeTourTour, LifeTourHome)
       break;
 
     case 'IntellitrakCard':
       event.target.className = 'selectedcard'
-      displayBlock.append(IntellitrakShow)
-      IntellitrakShow.append(IntellitrakCarshow, IntellitrakHome, IntellitrakInv, IntellitrakPerf)
+      displayBlock.append(IntellitrakCarshow, IntellitrakHome, IntellitrakInv, IntellitrakPerf)
       break;
     
     case 'PuppyLinkCard':
       event.target.className = 'selectedcard'
-      displayBlock.append(PuppyLinkShow)
-      PuppyLinkShow.append(PuppLinkBShow, PuppyLinkDShow, PuppyLinkPShow, PuppyLinkUser)
+      displayBlock.append(PuppLinkBShow, PuppyLinkDShow, PuppyLinkPShow, PuppyLinkUser)
       break;
   }
 })

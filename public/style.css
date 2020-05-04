@@ -3,32 +3,21 @@
   text-align: center;
 }
 
-.top-div {
+#topDiv {
   background-image: linear-gradient(dimgray, white);
+  padding: 1vw;
+  text-align: center;
 }
 
 .avatar {
   height: 18vmax;
   width: 18vmax;
-  padding: 1.75vw;
   border-radius: 135px;
 }
 
 .contactCard {
   height: 18vmax;
   width: 20vmax;
-}
-
-#info.col {
-  text-align: left;
-}
-
-#avatar.col {
-  text-align: right;
-}
-
-.displayBlock {
-  padding-bottom: 1vh;
 }
 
 .selectedcard {
@@ -76,10 +65,7 @@
   width: 20vmax;
 }
 
-.phone-image {
-  width: 100%;
-}
-
 .page-image {
   width: 100%;
+  padding: 15px;
 }
