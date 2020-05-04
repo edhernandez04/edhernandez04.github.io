@@ -77,9 +77,10 @@
 }
 
 .phone-image {
-  width: 50vmax;
+  width: 100%;
 }
 
 .page-image {
-  width: 100vmax;
+  padding: 1vw;
+  width: 100%;
 }
