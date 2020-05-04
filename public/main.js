@@ -120,19 +120,19 @@ let LifeTourShow = document.createElement('div')
     let LifeTourUserpage = document.createElement('div')
       LifeTourUserpage.id = 'LifeTourUserpage'
       LifeTourUserpage.className = 'col'
-      LifeTourUserpage.innerHTML = `<img src='./assets/LifeTour/homepage.png' width='325px'>`
+      LifeTourUserpage.innerHTML = `<img src='./assets/LifeTour/homepage.png' width='300px'>`
     let LifeTourLogin = document.createElement('div')
       LifeTourLogin.id = 'LifeTourLogin'
       LifeTourLogin.className = 'col'
-      LifeTourLogin.innerHTML = `<img src='./assets/LifeTour/login.png' width='325px'>`
+      LifeTourLogin.innerHTML = `<img src='./assets/LifeTour/login.png' width='300px'>`
     let LifeTourTour = document.createElement('div')
       LifeTourTour.id = 'LifeTourTour'
       LifeTourTour.className = 'col'
-      LifeTourTour.innerHTML = `<img src='./assets/LifeTour/tourpage.png' width='325px'>`
+      LifeTourTour.innerHTML = `<img src='./assets/LifeTour/tourpage.png' width='300px'>`
     let LifeTourHome = document.createElement('div')
       LifeTourHome.id = 'LifeTourHome'
       LifeTourHome.className = 'col'
-      LifeTourHome.innerHTML = `<img src='./assets/LifeTour/home.png' width='325px'>`
+      LifeTourHome.innerHTML = `<img src='./assets/LifeTour/home.png' width='300px'>`
 
 let IntellitrakShow = document.createElement('div')
   IntellitrakShow.id = 'IntellitrakShow'
