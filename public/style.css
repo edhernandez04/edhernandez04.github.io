@@ -1,3 +1,8 @@
+#app {
+  display: block;
+  text-align: center;
+}
+
 .top-div {
   background-image: linear-gradient(dimgray, white);
 }
@@ -7,7 +12,6 @@
   width: 18vmax;
   padding: 1.75vw;
   border-radius: 135px;
-  text-align: right;
 }
 
 .contactCard {
@@ -24,7 +28,6 @@
 }
 
 .displayBlock {
-  text-align: center;
   padding-bottom: 1vh;
 }
 
@@ -52,12 +55,7 @@
   z-index: 2;
 }
 
-#projectRow {
-  text-align: center;
-}
-
 #pBpreview {
-  text-align: center;
   padding: 2vw;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -79,9 +77,9 @@
 }
 
 .phone-image {
-  min-width: 95%;
+  min-width: 92%;
 }
 
 .page-image {
-  min-width: 95%;
+  min-width: 92%;
 }
