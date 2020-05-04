@@ -79,9 +79,9 @@
 }
 
 .phone-image {
-  max-width: 200vmax;
+  min-width: 95%;
 }
 
 .page-image {
-  max-width: 500vmax;
+  min-width: 95%;
 }
