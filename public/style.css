@@ -5,14 +5,14 @@
 .avatar {
   height: 18vw;
   width: 18vw;
+  padding: 1.75vw;
   border-radius: 135px;
   text-align: right;
-  margin-top: 1.75vw;
 }
 
 .contactCard {
-  height: 21vw;
-  width: 22vw;
+  height: 18vw;
+  width: 20vw;
 }
 
 #info.col {
@@ -24,7 +24,6 @@
 }
 
 .displayBlock {
-  padding: 1.75vw;
   height: relative;
 }
 
@@ -48,12 +47,13 @@
 
 .container {
   text-align: center;
-  margin-top: 14%;
+  padding-top: auto;
   z-index: 2;
 }
 
 #displayBlock {
   text-align: center;
+  padding-bottom: 1vh;
 }
 
 #projectRow {
@@ -84,20 +84,4 @@
 #PuppyLinkCard{
   width: 15vw;
   height: auto;
-}
-
-#LinkUpShow {
-  padding: 1%;
-}
-
-#LifeTourShow {
-  padding: 1%;
-}
-
-#IntellitrakShow {
-  padding: 1%;
-}
-
-#PuppyLinkShow {
-  padding: 1%;
 }
