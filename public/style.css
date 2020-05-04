@@ -1,18 +1,19 @@
 .top-div {
   background-image: linear-gradient(dimgray, white);
+  width: relative;
 }
 
 .avatar {
-  height: 18vw;
-  width: 18vw;
+  height: 18vmax;
+  width: 18vmax;
   padding: 1.75vw;
   border-radius: 135px;
   text-align: right;
 }
 
 .contactCard {
-  height: 18vw;
-  width: 20vw;
+  height: 18vmax;
+  width: 20vmax;
 }
 
 #info.col {
@@ -47,7 +48,7 @@
 
 .container {
   text-align: center;
-  padding-top: auto;
+  padding-top: 12%;
   z-index: 2;
 }
 
@@ -62,23 +63,23 @@
 
 #pBpreview {
   text-align: center;
-  padding-top: 1vw;
+  padding: 1vw;
   font-family: 'Courier New', Courier, monospace;
 }
 
 #LinkUpCard{
-  width: 17vw;
+  width: 17vmax;
 }
 
 #LifeTourCard{
-  width: 17vw;
+  width: 17vmax;
 }
 
 #IntellitrakCard{
-  width: 17vw;
+  width: 17vmax;
 }
 
 #PuppyLinkCard{
-  width: 17vw;
+  width: 17vmax;
 }
 
