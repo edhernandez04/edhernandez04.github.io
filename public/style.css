@@ -1,6 +1,5 @@
 .top-div {
   background-image: linear-gradient(dimgray, white);
-  min-width: auto;
 }
 
 .avatar {
@@ -25,7 +24,6 @@
 }
 
 .displayBlock {
-  min-width: auto;
   text-align: center;
   padding-bottom: 1vh;
 }
@@ -78,4 +76,12 @@
 
 #PuppyLinkCard{
   width: 20vmax;
+}
+
+.phone-image {
+  max-width: 200vmax;
+}
+
+.page-image {
+  max-width: 500vmax;
 }
