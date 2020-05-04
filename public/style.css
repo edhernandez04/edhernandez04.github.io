@@ -29,8 +29,6 @@
 }
 
 .selectedcard {
-  width: 58%;
-  height: auto;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -54,6 +52,10 @@
   z-index: 2;
 }
 
+#displayBlock {
+  text-align: center;
+}
+
 #projectRow {
   text-align: center;
 }
@@ -62,6 +64,26 @@
   text-align: center;
   padding-top: 4vw;
   font-family: 'Courier New', Courier, monospace;
+}
+
+#LinkUpCard{
+  width: 15vw;
+  height: auto;
+}
+
+#LifeTourCard{
+  width: 15vw;
+  height: auto;
+}
+
+#IntellitrakCard{
+  width: 15vw;
+  height: auto;
+}
+
+#PuppyLinkCard{
+  width: 15vw;
+  height: auto;
 }
 
 #LinkUpShow {

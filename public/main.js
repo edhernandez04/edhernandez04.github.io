@@ -56,7 +56,7 @@ let LinkUp = document.createElement('div')
 
   let LinkUpCard = document.createElement('div')
     LinkUpCard.className = 'logo'
-    LinkUpCard.innerHTML = `<img src='./assets/LinkUp.png' height='200px' width='200px' id='LinkUpCard'>`
+    LinkUpCard.innerHTML = `<img src='./assets/LinkUp.png' id='LinkUpCard'>`
 
 let LifeTour = document.createElement('div')
   LifeTour.id = 'LifeTour'
@@ -64,7 +64,7 @@ let LifeTour = document.createElement('div')
 
   let LifeTourCard = document.createElement('div')
     LifeTourCard.className = 'logo'
-    LifeTourCard.innerHTML = `<img src='./assets/LifeTour.png' height='200px' width='200px' id='LifeTourCard'>`
+    LifeTourCard.innerHTML = `<img src='./assets/LifeTour.png' id='LifeTourCard'>`
 
 let IntelliTrak = document.createElement('div')
   IntelliTrak.id = 'IntelliTrak'
@@ -72,7 +72,7 @@ let IntelliTrak = document.createElement('div')
 
   let IntelliTrakCard = document.createElement('div')
     IntelliTrakCard.className = 'logo'
-    IntelliTrakCard.innerHTML = `<img src='./assets/Intellitrak.png' height='200px' width='200px' id='IntellitrakCard'>`
+    IntelliTrakCard.innerHTML = `<img src='./assets/Intellitrak.png' id='IntellitrakCard'>`
 
 let PuppyLink = document.createElement('div')
   PuppyLink.id = 'PuppyLink'
@@ -80,7 +80,7 @@ let PuppyLink = document.createElement('div')
 
   let PuppyLinkCard = document.createElement('div')
     PuppyLinkCard.className = 'logo'
-    PuppyLinkCard.innerHTML = `<img src='./assets/PuppyLink.png' height='200px' width='200px' id='PuppyLinkCard'>`
+    PuppyLinkCard.innerHTML = `<img src='./assets/PuppyLink.png' id='PuppyLinkCard'>`
 
 app.append(projectBlock)
 projectBlock.append(projectRow)
