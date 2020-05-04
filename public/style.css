@@ -62,27 +62,23 @@
 
 #pBpreview {
   text-align: center;
-  padding-top: 4vw;
+  padding-top: 1vw;
   font-family: 'Courier New', Courier, monospace;
 }
 
 #LinkUpCard{
-  width: 15vw;
-  height: auto;
+  width: 17vw;
 }
 
 #LifeTourCard{
-  width: 15vw;
-  height: auto;
+  width: 17vw;
 }
 
 #IntellitrakCard{
-  width: 15vw;
-  height: auto;
+  width: 17vw;
 }
 
 #PuppyLinkCard{
-  width: 15vw;
-  height: auto;
+  width: 17vw;
 }
 
