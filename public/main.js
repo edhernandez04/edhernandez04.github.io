@@ -71,6 +71,7 @@ let LinkUpShow = document.createElement('div')
 
 let LifeTourShow = document.createElement('div')
   LifeTourShow.id = 'LifeTourShow'
+  LifeTourShow.className = 'row'
     let LifeTourUserpage = document.createElement('div')
       LifeTourUserpage.id = 'LifeTourUserpage'
       LifeTourUserpage.innerHTML = `<img src='./assets/LifeTour/homepage.png' class='page-image'>`
@@ -86,6 +87,7 @@ let LifeTourShow = document.createElement('div')
 
 let IntellitrakShow = document.createElement('div')
   IntellitrakShow.id = 'IntellitrakShow'
+  IntellitrakShow.className = 'row'
     let IntellitrakCarshow = document.createElement('div')
       IntellitrakCarshow.id = 'IntellitrakCarshow'
       IntellitrakCarshow.innerHTML = `<img src='./assets/IntelliTrak/carshow.png' class='page-image'>`
@@ -101,6 +103,7 @@ let IntellitrakShow = document.createElement('div')
 
 let PuppyLinkShow = document.createElement('div')
   PuppyLinkShow.id = 'PuppyLinkShow'
+  PuppyLinkShow.className = 'row'
     let PuppLinkBShow = document.createElement('div')
       PuppLinkBShow.id = 'PuppLinkBShow'
       PuppLinkBShow.innerHTML = `<img src='./assets/PuppyLink/breedershow.png' class='page-image'>`
