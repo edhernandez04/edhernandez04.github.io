@@ -10,6 +10,7 @@
 
 #projectBlock {
   justify-content: space-evenly;
+  width: 100%;
 }
 
 #projectBlock.img {
