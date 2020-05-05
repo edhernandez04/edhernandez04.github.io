@@ -12,6 +12,10 @@
   justify-content: space-evenly;
 }
 
+#projectBlock.img {
+  width: 100%;
+}
+
 .avatar {
   height: 18vmax;
   width: 18vmax;

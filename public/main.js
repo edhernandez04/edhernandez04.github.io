@@ -52,6 +52,7 @@ projectBlock.append(LinkUpCard, LifeTourCard, IntelliTrakCard, PuppyLinkCard)
 
 let LinkUpShow = document.createElement('div')
   LinkUpShow.id = 'LinkUpShow'
+  LinkUpShow.className = 'row'
     let LinkUpHomePage = document.createElement('div')
       LinkUpHomePage.id = 'linkuphome'
       LinkUpHomePage.innerHTML = `<img src='./assets/LinkUp/homepage.png' class='phone-image'>`
