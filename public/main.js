@@ -24,7 +24,7 @@ let pBpreview = document.createElement('div')
       Born & raised in The Bronx. 
       I enjoy being nice to people for no reason, golfing, football, & listening to loud music.
       The hardest working person in the universe and I make sure to have fun doing it. Watch for the future projects. 
-      Feel free to shoot me an email with any inqueries. Thanks for stopping by!
+      Feel free to shoot me an email with any inquiries. Thanks for stopping by!
   `
 displayBlock.append(pBpreview)
 
