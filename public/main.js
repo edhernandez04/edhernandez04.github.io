@@ -25,9 +25,7 @@ let pBpreview = document.createElement('div')
       then pursued Software Engineering with Flatiron School. He has experience owning, managing, and working for 
       consulting and food service businesses. With a niche perspective, the plan is to deliver 
       quality tailored solutions for the business world. Ed is the perfect translation from business operations
-      into technical possibilities. Feel free to contact Ed via email by clicking the icon on the top bar.
-      Be on the look out for future project, and thank you for stopping by!
-
+      into technical possibilities. Be on the look out for future projects, and thank you for stopping by!
   `
 displayBlock.append(pBpreview)
 
