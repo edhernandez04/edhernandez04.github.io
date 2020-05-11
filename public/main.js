@@ -21,10 +21,13 @@ let displayBlock = document.createElement('div')
 let pBpreview = document.createElement('div')
   pBpreview.id = 'pBpreview'
   pBpreview.innerHTML = `
-      Born & raised in The Bronx. 
-      I enjoy being nice to people for no reason, golfing, football, & listening to loud music.
-      The hardest working person in the universe and I make sure to have fun doing it. Watch for the future projects. 
-      Feel free to shoot me an email with any inquiries. Thanks for stopping by!
+      Ed was born & raised in The Bronx, graduated Pace University with a Bachelor's Degree in Finance,
+      then pursued Software Engineering with Flatiron School. He has experience owning, managing, and working for 
+      consulting and food service businesses. With a niche perspective, the plan is to deliver 
+      quality tailored solutions for the business world. Ed is the perfect translation from business operations
+      into technical possibilities. Feel free to contact Ed via email by clicking the icon on the top bar.
+      Be on the look out for future project, and thank you for stopping by!
+
   `
 displayBlock.append(pBpreview)
 
